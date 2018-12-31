@@ -1,0 +1,240 @@
+<configs>
+	
+	<append xpath="/lootcontainers">
+		<lootgroup name="lumberjacks" count="1">
+			<item name="meleeToolFireaxeIron" prob="1"/>
+			<item group="rareTools" prob="0.5"/>
+			<item name="drinkJarGrainAlcohol"/>
+			<item name="resourceForgedIron" count="1,4" prob="0.01272"/> <!-- together 0.5% -->
+			<item name="resourceForgedSteel" count="1,4" prob="0.00848"/>
+			<item name="gunCompoundBow" prob="0.015"/>
+			<item group="weaponsHuntingRifle+ammo" prob="0.01"/>
+			<item group="paintMagazines" prob="0.12"/>
+		</lootgroup>
+		<lootgroup name="ZombieUtilityWorker">
+			<item group="shirtLongAll"/>
+			<item group="pantsAll"/>
+			<item group="denimShortsPantsAll"/>
+			<item group="tankTopAll"/>
+			<item group="bandanaAll"/>
+			<item group="tshirtAll"/>
+			<item group="tools"/>
+			<item name="wornBoots"/>
+			<item name="shades"/>
+			<item name="armorMiningHelmet"/>
+			<item name="meleeToolFlashlight02" prob="0.3"/>
+			<item name="resourceNail" count="10,40" prob="0.3"/>
+			<item name="resourceForgedIron" count="5,15" prob="0.25"/>
+			<item name="resourceForgedSteel" count="3,12" prob="0.2"/>
+			<item name="vehicleMinibikeChassis" prob="0.4"/>
+			<item name="vehicleMinibikeHandlebars" prob="0.4"/>
+		</lootgroup>
+
+		<!-- EntityLootContainer_zombie -->
+		<lootcontainer id="200" count="1,2" size="3,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+			<item group="junk" prob="10"/>
+			<item group="clothes" prob="1.2"/>
+			<item group="rottenFood" prob="0.62"/>
+			<item group="questChallenge" count="1" prob="0.191"/>
+			<item group="treasureMaps" count="1" prob="0.161"/> <!-- total 2% for a quest thing -->
+			<item name="facialPiercings" prob="0.08"/>
+		</lootcontainer>
+		<!-- EntityLootContainer_Feral -->
+		<lootcontainer id="201" count="2,3" size="4,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+			<item name="drinkJarBoiledWater" count="1,4" prob="0.5"/>
+			<item group="books" prob="0.6"/>
+			<item name="resourceCandleStick" count="1,2" prob="0.4"/>
+			<item name="resourceForgedIron" count="1,8" prob="1"/>
+			<item name="resourceForgedSteel" count="1,8" prob="1"/>
+			<item name="resourceMilitaryFiber" count="1,4" prob="0.5"/>
+			<item group="tools" prob="0.7"/>
+			<item group="rareTools" prob="0.5"/>
+			<item group="ironArmor" prob="0.25"/>
+			<item group="steelArmor" prob="0.2"/>
+			<item group="militaryArmor" prob="0.25"/>
+			<item name="armorSwatHelmet" prob="0.7"/>
+			<item group="hazmatGear" prob="0.5"/>
+			<item group="ammo" count="1,2" prob="1.5"/>
+			<item group="weaponsPistol+ammo" prob="0.7"/>
+			<item group="weaponsMagnum+ammo" prob="0.2"/>
+			<item group="weaponsShotgun+ammo" prob="0.4"/>
+			<item group="weaponsHuntingRifle+ammo" prob="0.3"/>
+			<item group="weaponsMilitaryGuns+ammo" prob="0.3"/>
+			<item name="meleeClubIron" prob="0.5"/>
+			<item name="meleeToolHuntingKnife" prob="0.7"/>
+			<item name="meleeToolMachete" prob="0.4"/>
+			<item name="gunCompoundBow" prob="0.25"/>
+			<item name="nightvisionGoggles" prob="0.125"/>
+			<item name="casinoCoin" count="10,50" prob="1.2"/>
+			<item name="oldCash" count="20,60" prob="1.2"/>
+			<item group="rareMedicine" prob="0.6"/>
+			<item name="drugPainkillers" count="2,3" prob="0.3"/>
+			<item group="treasureMaps" count="1" prob="0.15"/>
+			<item group="questChallenge" count="1" prob="0.15"/>
+			<item group="modAllT1" prob="1.0"/>
+			<item group="modAllT2" prob="0.75"/>
+			<item group="modAllT3" prob="0.5"/>
+		</lootcontainer>
+		<!-- EntityLootContainer_Legendary -->
+		<lootcontainer id="202" count="3,4" size="5,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+			<item name="drinkJarBoiledWater" count="1,4" prob="0.5"/>
+			<item group="books" prob="0.6"/>
+			<item name="resourceCandleStick" count="1,2" prob="0.4"/>
+			<item name="resourceForgedIron" count="1,8" prob="1"/>
+			<item name="resourceForgedSteel" count="1,8" prob="1"/>
+			<item name="resourceMilitaryFiber" count="1,4" prob="0.5"/>
+			<item group="tools" prob="0.7"/>
+			<item group="rareTools" prob="0.5"/>
+			<item group="ironArmor" prob="0.25"/>
+			<item group="steelArmor" prob="0.2"/>
+			<item group="militaryArmor" prob="0.25"/>
+			<item name="armorSwatHelmet" prob="0.7"/>
+			<item group="hazmatGear" prob="0.5"/>
+			<item group="ammo" count="1,2" prob="1.5"/>
+			<item group="weaponsPistol+ammo" prob="0.7"/>
+			<item group="weaponsMagnum+ammo" prob="0.2"/>
+			<item group="weaponsShotgun+ammo" prob="0.4"/>
+			<item group="weaponsHuntingRifle+ammo" prob="0.3"/>
+			<item group="weaponsMilitaryGuns+ammo" prob="0.3"/>
+			<item name="meleeClubIron" prob="0.5"/>
+			<item name="meleeToolHuntingKnife" prob="0.7"/>
+			<item name="meleeToolMachete" prob="0.4"/>
+			<item name="gunCompoundBow" prob="0.25"/>
+			<item name="nightvisionGoggles" prob="0.125"/>
+			<item name="casinoCoin" count="10,50" prob="1.2"/>
+			<item name="oldCash" count="20,60" prob="1.2"/>
+			<item group="rareMedicine" prob="0.6"/>
+			<item name="drugPainkillers" count="2,3" prob="0.3"/>
+			<item group="treasureMaps" count="1" prob="0.15"/>
+			<item group="questChallenge" count="1" prob="0.15"/>
+			<item group="modAllT1" prob="1.0"/>
+			<item group="modAllT2" prob="0.75"/>
+			<item group="modAllT3" prob="0.5"/>
+		</lootcontainer>
+		<!-- EntityLootContainer_zombieFootballPlayer -->
+		<lootcontainer id="203" count="1,2" size="3,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+			<item group="junk" prob="1.5"/>
+			<item group="ZombieFootballPlayer"/>
+		</lootcontainer>
+		<!-- EntityLootContainer_zombieLab -->
+		<lootcontainer id="204" count="1,2" size="3,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+			<item group="junk" prob="1.5"/>
+			<item group="labEquipment"/>
+		</lootcontainer>
+		<!-- EntityLootContainer_zombieBusinessMan -->
+		<lootcontainer id="205" count="1,2" size="3,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+			<item group="junk" prob="4"/>
+			<item group="suitAll" prob="2"/>
+			<item name="oldCash" count="14,60" prob="2"/>
+			<item name="resourcePaper" count="10,25" prob="0.66"/>
+			<item group="questChallenge" count="1" prob="0.036"/>
+			<item group="treasureMaps" count="1" prob="0.031"/>
+		</lootcontainer>
+		<!-- EntityLootContainer_zombieSnow -->
+		<lootcontainer id="206" count="1,2" size="3,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+			<item group="junk" prob="1"/>
+			<item group="lumberjacks" prob="0.42"/>
+			<item group="warmClothes" prob="1"/>
+			<item group="rareOres" prob="0.02"/>
+		</lootcontainer>
+		<!-- EntityLootContainer_zombieBurnt -->
+		<lootcontainer id="207" count="1,2" size="3,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+			<item group="junk" prob="2"/>
+			<item name="resourceCoal" count="5,15" prob="1"/>
+		</lootcontainer>
+		<!-- EntityLootContainer_zombieNurse -->
+		<lootcontainer id="208" count="1,2" size="3,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+			<item group="junk" prob="1.5"/>
+			<item group="medicine"/>
+			<item name="oldCash" count="1,20" prob="0.5"/>
+		</lootcontainer>
+		<!-- EntityLootContainer_zombieFatHawaiian -->
+		<lootcontainer id="209" count="1,2" size="3,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+			<item group="junk" prob="4"/>
+			<item group="rottenFood" prob="4"/>
+			<item name="drinkJarBoiledWater" count="1,2" prob="1.5"/>
+			<item name="foodShamSandwich" prob="5"/>
+			<item group="cannedfood" prob="5"/>
+			<item name="drugPainkillers" prob="1"/>
+			<item group="ammo" prob="1"/>
+			<item group="weaponsPistol+ammo" prob="0.3"/>
+		</lootcontainer>
+		<!-- EntityLootContainer_zombieFatCop -->
+		<lootcontainer id="210" count="1,2" size="3,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+			<item group="junk" prob="3"/>
+			<item group="rottenFood" prob="1"/>
+			<item name="foodShamSandwich" count="1,5"/>
+			<item group="weaponsPistol+ammo" prob="1.1"/>
+			<item group="weaponsShotgun+ammo" prob="1.1"/>
+			<item group="ammo"/>
+			<item name="meleeToolFlashlight02" prob="0.5"/>
+			<item name="armorMilitaryVest" prob="0.2"/>
+			<item name="resourceMilitaryFiber" count="1,4" prob="0.04"/>
+		</lootcontainer>
+		<!-- EntityLootContainer_zombieMaleHazmat -->
+		<lootcontainer id="211" count="1,2" size="3,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+			<item group="junk" prob="3.7"/>
+			<item group="hazmatGear" count="1"/>
+			<item group="rareMedicine" prob="0.2"/>
+			<item name="drinkJarGrainAlcohol" count="1,4" prob="0.2"/>
+			<item name="resourceScrapPolymers" count="1,5" prob="0.3"/>
+			<item name="resourcePaper" count="1,6" prob="0.3"/>
+			<item name="resourceCloth" count="1,4" prob="0.3"/>
+			<item name="resourceDuctTape" count="1,3" prob="0.25"/>
+			<item group="books"/>
+			<item group="questChallenge" count="1" prob="0.09"/>
+			<item group="treasureMaps" count="1" prob="0.092"/>
+			<item group="weaponsPistol+ammo" prob="0.03"/>
+		</lootcontainer>
+		<!-- EntityLootContainer_zombieUtilityWorker -->
+		<lootcontainer id="212" count="1,2" size="3,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+			<item group="junk" prob="1.5"/>
+			<item group="ZombieUtilityWorker" />
+		</lootcontainer>
+		<!-- EntityLootContainer_zombieSoldier -->
+		<lootcontainer id="213" count="1,2" size="3,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+			<item group="junk" prob="2"/>
+			<item group="weaponsMilitaryGuns+ammo" prob="1"/>
+			<item group="weaponsRocketLauncher+ammo" prob="0.06"/>
+			<item group="ammoRocket" count="2,6" prob="0.12"/>
+			<item group="militaryArmor" prob="1"/>
+			<item name="nightvisionGoggles" prob="0.3"/>
+		</lootcontainer>
+		<!-- EntityLootContainer_zombieBiker -->
+		<lootcontainer id="214" count="1,2" size="3,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+			<item group="junk" prob="2"/>
+			<item name="armorSwatHelmet"/>
+			<item name="gothicPants"/>
+			<item name="gothBootsBlack"/>
+			<item name="shades" prob="0.1"/>
+			<item name="drinkJarBeer" prob="3"/>
+			<item name="drinkJarGrainAlcohol"/>
+			<item name="oldCash" count="1,15"/>
+			<item name="casinoCoin" count="1,10"/>
+			<item name="drugAntibiotics"/>
+			<item name="drugPainkillers"/>
+			<item group="weaponsPistol+ammo" prob="0.15"/>
+			<item group="weaponsShotgun+ammo" prob="0.15"/>
+			<item group="tools" prob="0.1"/>
+			<item name="meleeClubIron"/>
+			<item name="modMeleeClubBarbedWire" prob="0.6"/>
+			<item name="modMeleeClubMetalSpikes" prob="0.5"/>
+			<item name="meleeToolHuntingKnife"/>
+			<item name="meleeToolMachete" prob="0.8"/>
+			<item name="medicalFirstAidKit"/>
+			<item group="minibikeParts" prob="0.4"/>
+		</lootcontainer>
+		<!-- EntityLootContainer_zombieFarmer -->
+		<lootcontainer id="215" count="1,2" size="3,2" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
+			<item group="junk" prob="2"/>
+			<item group="tools" prob="1"/>
+			<item group="farmCrops" prob="1"/>
+			<item group="seeds" prob="1"/>
+			<item name="meleeToolHoeIron" prob="1"/>
+			<item name="meleeToolShovelIron" prob="1"/>
+			<item name="drinkJarBeer" prob="1"/>
+			<item name="gunCompoundBow" prob="0.01"/>
+		</lootcontainer>
+	</append>
+	
+</configs>
